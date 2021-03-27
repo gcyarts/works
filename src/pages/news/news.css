@@ -1,0 +1,14 @@
+.x1{
+    display:flex;
+    height:150px;
+    align-items:center;
+    justify-content: space-between;
+    padding:20px;
+}
+.x3{
+    color:blue;
+}
+#x2{
+    height:100%;
+    width:200px;
+}
