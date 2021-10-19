@@ -3,6 +3,8 @@ import { Input } from 'antd';
 import axios from 'axios'
 import Pweather from './Pweather'
 const { Search } = Input;
+
+window.foo()
 export default class Home extends React.Component{
     constructor(props){
         super(props);

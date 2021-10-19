@@ -32,7 +32,7 @@ export default class News extends React.Component{
                     {
                         this.state.datas.map((value,key)=>
 
-                            <div key={value.uniquekey}>
+                            <div key={key}>
                             <Pnews 
                                 title={value.title}
                                 date={value.date}
